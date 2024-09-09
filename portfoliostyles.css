@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+nav a:hover {
+    border-bottom: 2px solid #ff6347; /* Tomato color */
+}
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.section {
+    padding: 60px 0;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 8px;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.project {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
